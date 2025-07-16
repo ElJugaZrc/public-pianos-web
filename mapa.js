@@ -1,5 +1,3 @@
-const map = L.map('map').setView([37.3703279, -5.9996015], 10); // Sevilla
+const map = L.map('map').setView([37.3703279, -5.9996015], 3); // Sevilla
 
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-}).addTo(map);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',}).addTo(map); // Esta línea hace que el mapa se muestre
