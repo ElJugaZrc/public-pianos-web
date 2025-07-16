@@ -15,9 +15,20 @@
     <!--Div para lo que viene siendo el mapa, ya lo pondré en el futuro si se como hacerlo-->
     <div id="map"></div>
     <script src="mapa.js"></script>
-    <!--Div para el botón con todas las cosas-->
+    <!--Divs para el botón con todas las cosas-->
+    <div class="panel_informacion" id="panel_informacion">
+    
+    </div>
+
     <div class="info_buttom">
-        <img src="images/information_points.png" width="30px">
+        <button class="info_buttom_buttom">
+            <img src="images/information_points.png" width="30px">
+            <!--Script del funcionamiento del botón-->
+            <script>
+                onclick(document.getElementById("panel_informacion").style.visibility = "visible");
+                onclick(document.getElementById("panel_informacion").style.pointerEvents = "all");
+            </script>
+        </button>
     </div>
 </body>
 </html>
