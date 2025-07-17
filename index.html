@@ -12,22 +12,24 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
 <body>
-    <!--Div para lo que viene siendo el mapa, ya lo pondré en el futuro si se como hacerlo-->
+    <!--Div para lo que viene siendo el mapa-->
     <div id="map"></div>
     <script src="mapa.js"></script>
     <!--Divs para el botón con todas las cosas-->
     <div class="panel_informacion" id="panel_informacion">
-        <!--Botón de GitHub-->
         <a href="https://github.com/ElJugaZrc/public-pianos-web" class="github_button" target="_blank" rel="noopener noreferrer">
             <img src="images/github-mark.png" width="50px" height="50px">
         </a>
-        <!--Botón de discord-->
         <a href="https://discord.gg/WNYe33NB3g" class="discord_button" target="_blank" rel="noopener noreferrer">
             <img src="images/discord_icon.png" width="46px" height="46spx">
         </a>
-        <!--Botón de información-->
-        <button class="information_button">
-            <img src="images/information_icon.png">
+        <!--Botón de información (en proceso de funcionar)-->
+        <a href="templates/faq.html" class="information_button">
+            <img src="images/information_icon.png" width="44px" height="44px">
+        </a>
+        <button class="boton_cerrar_panel" id="boton_cerrar_panel">
+            <img src="images/cruz.png" width="30px" height="30px">
+            <script src="scripts/botones.js"></script>
         </button>
     </div>
 
