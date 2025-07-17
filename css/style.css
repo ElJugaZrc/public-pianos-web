@@ -17,7 +17,7 @@
     visibility: hidden;
 }
 
-.info_buttom {
+.info_button {
     z-index: 999;
     position: absolute; bottom: 30px; right: 20px;
     width: 50px; height: 50px;
@@ -28,12 +28,28 @@
     justify-content: center;
 }
 
-.info_buttom_buttom {
-     width: 50px; height: 50px;
+.info_button_button {
+    width: 50px; height: 50px;
     background: none;
     border: none;
     padding: 0;
     margin: 0;
     box-shadow: none;
     cursor: pointer;
+}
+
+.github_button {
+    width: 50px; height: 50px;
+    position: absolute; top: 0px; left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discord_button {
+    width: 50px; height: 50px;
+    position: absolute; top: 50px; left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
