@@ -3,7 +3,7 @@ const map = L.map('map').setView([37.3703279, -5.9996015], 3); // Sevilla
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',}).addTo(map); // Esta línea hace que el mapa se muestre
 
 // Constante para que el icono sea rojo
-const redIcon = new L.Icon({
+const IconoRojo = new L.Icon({
     iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
     shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
     iconSize: [25, 41],
@@ -13,7 +13,7 @@ const redIcon = new L.Icon({
 });
 
 // Constante para que el icono sea amarillo
-const yellowIcon = new L.Icon({
+const iconoAmarillo = new L.Icon({
     iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-yellow.png',
     shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
     iconSize: [25, 41],
@@ -23,7 +23,7 @@ const yellowIcon = new L.Icon({
 });
 
 // Constante para que el icono sea verde
-const greenIcon = new L.Icon({
+const IconoVerde = new L.Icon({
     iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png',
     shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
     iconSize: [25, 41],
@@ -32,5 +32,35 @@ const greenIcon = new L.Icon({
     shadowSize: [41, 41]
 });
 
+// Constante para que el icono sea negrojo
+const IconoNegrojo = new L.Icon({
+    iconUrl: 'images/marker_negrojo.png',
+    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+});
+
+// Constante para que el icono sea negroamarillo
+const IconoNegroAmarillo = new L.Icon({
+    iconUrl: 'images/marker_negroamarillo.png',
+    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+});
+
+// Constante para que el icono sea negroverde
+const IconoNegrojoVerde = new L.Icon({
+    iconUrl: 'images/marker_negroverde.png',
+    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+});
+
 // Usar el icono rojo en el marcador
-var marker = L.marker([40.4168, -3.7038], { icon: greenIcon }).addTo(map);
+var marker = L.marker([40.4168, -3.7038], { icon: IconoNegrojo }).addTo(map);
