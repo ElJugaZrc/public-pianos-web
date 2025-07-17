@@ -17,7 +17,7 @@
     visibility: hidden;
 }
 
-.info_button {
+.boton_info {
     z-index: 999;
     position: absolute; bottom: 30px; right: 20px;
     width: 50px; height: 50px;
@@ -28,7 +28,7 @@
     justify-content: center;
 }
 
-.info_button_button {
+.boton_boton_informacion {
     width: 50px; height: 50px;
     background: none;
     border: none;
@@ -38,7 +38,7 @@
     cursor: pointer;
 }
 
-.github_button {
+.boton_github {
     width: 50px; height: 50px;
     position: absolute; top: 0px; left: 0px;
     display: flex;
@@ -46,7 +46,7 @@
     justify-content: center;
 }
 
-.discord_button {
+.boton_discord {
     width: 50px; height: 50px;
     position: absolute; top: 50px; left: 0px;
     display: flex;
@@ -54,7 +54,7 @@
     justify-content: center;
 }
 
-.information_button {
+.boton_pagina_informacion {
     width: 50px; height: 50px;
     position: absolute; top: 100px; left: 0px;
     background: none;
