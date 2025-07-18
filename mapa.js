@@ -1,30 +1,10 @@
-const map = L.map('map').setView([37.3703279, -5.9996015], 3);
-
 // 1 = Verde, 2 = Amarillo, 3 = Rojo, 4 = NegroVerde, 5 = NegroAmarillo, 6 = Negrojo, 7 = Morado
+
+const map = L.map('map').setView([37.3703279, -5.9996015], 3);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',}).addTo(map); // Esta línea hace que el mapa se muestre
 
-// Constante para que el icono sea rojo
-const IconoRojo = new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-});
-
-// Constante para que el icono sea amarillo
-const iconoAmarillo = new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-yellow.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-});
-
-// Constante para que el icono sea verde
+// Constante para que el icono sea verde (1)
 const IconoVerde = new L.Icon({
     iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png',
     shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
@@ -34,9 +14,9 @@ const IconoVerde = new L.Icon({
     shadowSize: [41, 41]
 });
 
-// Constante para que el icono sea negrojo
-const IconoNegrojo = new L.Icon({
-    iconUrl: 'images/marcadores/marker_negrojo.png',
+// Constante para que el icono sea amarillo (2)
+const iconoAmarillo = new L.Icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-yellow.png',
     shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
@@ -44,9 +24,9 @@ const IconoNegrojo = new L.Icon({
     shadowSize: [41, 41]
 });
 
-// Constante para que el icono sea negroamarillo
-const IconoNegroAmarillo = new L.Icon({
-    iconUrl: 'images/marcadores/marker_negroamarillo.png',
+// Constante para que el icono sea rojo (3)
+const IconoRojo = new L.Icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
     shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
@@ -54,7 +34,7 @@ const IconoNegroAmarillo = new L.Icon({
     shadowSize: [41, 41]
 });
 
-// Constante para que el icono sea negroverde
+// Constante para que el icono sea negroverde (4)
 const IconoNegroVerde = new L.Icon({
     iconUrl: 'images/marcadores/marker_negroverde.png',
     shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
@@ -64,7 +44,27 @@ const IconoNegroVerde = new L.Icon({
     shadowSize: [41, 41]
 });
 
-// Constante para que el icono sea negroverde
+// Constante para que el icono sea negroamarillo (5)
+const IconoNegroAmarillo = new L.Icon({
+    iconUrl: 'images/marcadores/marker_negroamarillo.png',
+    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+});
+
+// Constante para que el icono sea negrojo (6)
+const IconoNegrojo = new L.Icon({
+    iconUrl: 'images/marcadores/marker_negrojo.png',
+    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+});
+
+// Constante para que el icono sea morado (7)
 const IconoMorado = new L.Icon({
     iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-violet.png',
     shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
