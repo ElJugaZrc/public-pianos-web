@@ -1,0 +1,22 @@
+LICENCIA DE USO DEL PROYECTO "Public Pianos Web"
+
+Este proyecto es de uso público solo para fines educativos y colaborativos.  
+No se permite el uso comercial, la redistribución con fines de lucro ni la creación de proyectos derivados con fines comerciales.
+
+Puedes:
+- Usar, modificar y compartir el código únicamente para fines educativos y personales.
+- Proponer mejoras mediante pull requests en este repositorio.
+
+Debes:
+- Mantener la atribución al autor original (ElJugaZrc).
+- Compartir cualquier modificación bajo los mismos términos de esta licencia.
+- No eliminar los avisos de licencia y créditos originales.
+
+Este proyecto utiliza:
+- **Leaflet** (licencia BSD 2-Clause): https://github.com/Leaflet/Leaflet/blob/main/LICENSE
+- **OpenStreetMap** (licencia ODbL): https://www.openstreetmap.org/copyright
+- **Leaflet Color Markers** (licencia BSD 2-Clause): https://github.com/pointhi/leaflet-color-markers?tab=BSD-2-Clause-1-ov-file
+
+Debes respetar las licencias de Leaflet, Leaflet Color Markets y OpenStreetMap al usar este proyecto.
+
+El autor no se responsabiliza del uso indebido del código fuera de los términos aquí descritos.
