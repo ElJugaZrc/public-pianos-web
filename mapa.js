@@ -1,4 +1,13 @@
-// 1 = Verde, 2 = Amarillo, 3 = Rojo, 4 = NegroVerde, 5 = NegroAmarillo, 6 = Negrojo, 7 = Morado
+// Estructura para añadir pianos:
+// "id" : int que sea el número del anterior + 1
+// "latitud" : float de las coordenadas del piano
+// "longitud" : float de las coordenadas del piano
+// "estado" : int que indique el estado del piano. 1 para pianos en buen estado. 2 para pianos con desperfectos. 3 para pianos en pésimas condiciones. 4, 5 y 6 son los casos anteriores pero para pianos de accesibilidad reducida. 7 para pianos temporales, es decir, que están por algún evento o algo.
+// "lugar" : texto corto que indique el lugar en el que se encuentra el piano
+// "imagen" : añadir una imagen a la carpeta de pianos con el nombre piano_(numero del id)
+// "descripcion" : descripcion del piano y como llegar a él
+// "link" : link de google maps de las coordenadas del piano
+// Poner esas cosas en el archivo json
 
 const map = L.map('map').setView([37.3703279, -5.9996015], 3);
 
