@@ -13,6 +13,16 @@ const map = L.map('map').setView([37.3703279, -5.9996015], 3);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',}).addTo(map); // Esta línea hace que el mapa se muestre
 
+// Constante para que el icono sea gris (0)
+const IconoGris = new L.Icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-grey.png',
+    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+});
+
 // Constante para que el icono sea verde (1)
 const IconoVerde = new L.Icon({
     iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png',
@@ -73,7 +83,17 @@ const IconoNegrojo = new L.Icon({
     shadowSize: [41, 41]
 });
 
-// Constante para que el icono sea morado (7)
+// Constante para que el icono sea negris (7)
+const IconoNegris = new L.Icon({
+    iconUrl: 'images/marcadores/marker_negris.png',
+    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+});
+
+// Constante para que el icono sea morado (8)
 const IconoMorado = new L.Icon({
     iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-violet.png',
     shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
@@ -91,14 +111,16 @@ fetch('pianos.json')
             // Selecciona el icono según el estado
             let icono;
             switch (piano.estado) {
+                case 0: icono = IconoGris
                 case 1: icono = IconoVerde; break;
                 case 2: icono = iconoAmarillo; break;
                 case 3: icono = IconoRojo; break;
                 case 4: icono = IconoNegroVerde; break;
                 case 5: icono = IconoNegroAmarillo; break;
                 case 6: icono = IconoNegrojo; break;
-                case 7: icono = IconoMorado; break;
-                default: icono = IconoVerde;
+                case 7: icono = IconoNegris; break;
+                case 8: icono = IconoMorado; break;
+                default: icono = IconoGris;
             }
 
             // Crea el marcador

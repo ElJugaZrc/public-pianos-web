@@ -78,7 +78,7 @@
 .leyenda {
     z-index: 999;
     position: absolute; bottom: 20px; left: 20px;
-    width: 280px; height: 160px;
+    width: 280px; height: 200px;
     background-color: white;
     border-radius: 10px;
     display: flex;
