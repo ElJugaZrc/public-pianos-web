@@ -15,3 +15,25 @@ document.getElementById("boton_cerrar_panel").addEventListener("click", function
     info_buttom.style.visibility = "visible";
     info_buttom.style.pointerEvents = "all";
 })
+
+document.getElementById("boton_cerrar_leyenda").addEventListener("click", function() {
+    const leyenda = document.getElementById("leyenda")
+    const boton_cerrar_leyenda = document.getElementById("cerrar_leyenda")
+    const boton_abrir_leyenda = document.getElementById("abrir_leyenda")
+    leyenda.style.visibility = "hidden";
+    boton_cerrar_leyenda.style.visibility = "hidden";
+    boton_cerrar_leyenda.style.pointerEvents = "none";
+    boton_abrir_leyenda.style.visibility = "visible";
+    boton_abrir_leyenda.style.pointerEvents = "all";
+})
+
+document.getElementById("boton_abrir_leyenda").addEventListener("click", function() {
+    const leyenda = document.getElementById("leyenda")
+    const boton_cerrar_leyenda = document.getElementById("cerrar_leyenda")
+    const boton_abrir_leyenda = document.getElementById("abrir_leyenda")
+    leyenda.style.visibility = "visible";
+    boton_cerrar_leyenda.style.visibility = "visible";
+    boton_cerrar_leyenda.style.pointerEvents = "all";
+    boton_abrir_leyenda.style.visibility = "hidden";
+    boton_abrir_leyenda.style.pointerEvents = "none";
+})

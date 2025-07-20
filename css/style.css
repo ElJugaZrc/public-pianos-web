@@ -21,7 +21,7 @@
     z-index: 1000;
     position: absolute; bottom: 30px; right: 20px;
     width: 50px; height: 50px;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -77,13 +77,60 @@
 
 .leyenda {
     z-index: 999;
-    position: absolute; bottom: 20px; left: 20px;
+    position: absolute; bottom: 30px; left: 20px;
     width: 280px; height: 200px;
     background-color: white;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.cerrar_leyenda {
+    z-index: 1000;
+    position: absolute; bottom: 215px; left: 285px;
+    width: 30px; height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+.boton_cerrar_leyenda {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+
+.abrir_leyenda {
+    z-index: 1000;
+    position: absolute; bottom: 30px; left: 20px;
+    width: 50px; height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.boton_abrir_leyenda {
+    width: 50px; height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 body {
