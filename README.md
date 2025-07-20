@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="ruta/imagen.png" alt="Descripción de la imagen" width="300"/>
+  <img src="images/publicpianos_logo.png" width="300"/>
 </p>
 
 # 🎹 PublicPianos.org
