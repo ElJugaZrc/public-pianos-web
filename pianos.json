@@ -4,9 +4,9 @@
         "latitud" : 41.288997,
         "longitud" : 2.074828,
         "estado" : 7,
-        "lugar" : "Aeropuerto de El Prat",
+        "lugar" : "El Prat Airport",
         "imagen" : "piano_1.png",
-        "descripcion" : "Piano en buenas condiciones y bien afinado. Su acceso está limitado ya que se necesita una tarjeta de embarque para acceder al aeropuerto.",
+        "descripcion" : "The piano is in good condition and well-tuned. Access is limited, as a boarding pass is required to enter the airport.",
         "link" : "https://www.google.com/maps/@41.2894063,2.0753324,206m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDcxNS4xIKXMDSoASAFQAw%3D%3D"
     },
 
@@ -15,9 +15,9 @@
         "latitud" : 48.7308151,
         "longitud" : 2.3631473,
         "estado" : 7,
-        "lugar" : "Aeropuerto de Paris-Orly",
+        "lugar" : "Paris-Orly Airport",
         "imagen" : "piano_2.png",
-        "descripcion" : "Piano en buenas condiciones y bien afinado. Su acceso está limitado ya que se necesita una tarjeta de embarque para acceder al aeropuerto.",
+        "descripcion" : "The piano is in good condition and well-tuned. Access is limited, as a boarding pass is required to enter the airport.",
         "link" : "https://www.google.com/maps/place/48%C2%B043'52.3%22N+2%C2%B021'42.4%22E/@48.7308151,2.3631473,723m/data=!3m1!1e3!4m4!3m3!8m2!3d48.731199!4d2.361789?entry=ttu&g_ep=EgoyMDI1MDcxNS4xIKXMDSoASAFQAw%3D%3D"
     }
 ]
