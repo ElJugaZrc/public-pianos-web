@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="ruta/imagen.png" alt="Descripción de la imagen" width="300"/>
+</p>
+
 # 🎹 PublicPianos.org
 
 Este proyecto es una página web que muestra pianos públicos de todo el mundo. Es un proyecto sin ánimo de lucro y que requiere la participación activa de todo el mundo para estar actualizado.
