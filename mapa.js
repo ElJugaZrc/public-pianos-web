@@ -131,7 +131,7 @@ fetch('pianos.json')
                     <hr>
                     <img src='images/pianos/${piano.imagen}' width='300px'>
                     <p>${piano.descripcion}</p>
-                    <table><tr><td><a href='${piano.link}' target='_blank' rel='noopener noreferrer'>Open in google maps</a></td><td><h5>Last update: ${piano.comprobacion}</h5></td></tr></table>`
+                    <table style="width:100%"><tr><td><a href='${piano.link}' target='_blank' rel='noopener noreferrer'>Open in google maps</a></td><td><h5 style="margin: 0px;">Last update: ${piano.comprobacion}</h5></td></tr></table>`
                 );
         });
     })
