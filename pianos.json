@@ -7,7 +7,8 @@
         "lugar" : "El Prat Airport",
         "imagen" : "piano_1.png",
         "descripcion" : "Piano in unknown conditions. Access is limited, as a boarding pass is required to enter the airport.",
-        "link" : "https://www.google.com/maps/@41.2894063,2.0753324,206m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDcxNS4xIKXMDSoASAFQAw%3D%3D"
+        "link" : "https://www.google.com/maps/@41.2894063,2.0753324,206m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDcxNS4xIKXMDSoASAFQAw%3D%3D",
+        "comprobacion" : "22/7/2025"
     },
 
     {
@@ -18,7 +19,8 @@
         "lugar" : "Paris-Orly Airport",
         "imagen" : "piano_2.png",
         "descripcion" : "Piano in unknown conditions. Access is limited, as a boarding pass is required to enter the airport.",
-        "link" : "https://www.google.com/maps/place/48%C2%B043'52.3%22N+2%C2%B021'42.4%22E/@48.7308151,2.3631473,723m/data=!3m1!1e3!4m4!3m3!8m2!3d48.731199!4d2.361789?entry=ttu&g_ep=EgoyMDI1MDcxNS4xIKXMDSoASAFQAw%3D%3D"
+        "link" : "https://www.google.com/maps/place/48%C2%B043'52.3%22N+2%C2%B021'42.4%22E/@48.7308151,2.3631473,723m/data=!3m1!1e3!4m4!3m3!8m2!3d48.731199!4d2.361789?entry=ttu&g_ep=EgoyMDI1MDcxNS4xIKXMDSoASAFQAw%3D%3D",
+        "comprobacion" : "22/7/2025"
     },
 
     {
@@ -28,6 +30,20 @@
         "estado" : 0,
         "lugar" : "Florence Train Station",
         "imagen" : "piano_3.png",
-        "descripcion" : "Piano in unknown conditios. Is somewhere underground between some shops."
+        "descripcion" : "Piano in unknown conditios. Is somewhere underground between some shops.",
+        "link" : "https://www.google.com/maps/place/43%C2%B046'35.2%22N+11%C2%B014'50.0%22E/@43.7760549,11.2473041,216m/data=!3m1!1e3!4m4!3m3!8m2!3d43.776432!4d11.247208?entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D",
+        "comprobacion" : "22/7/2025"
+    },
+
+    {
+        "id" : 4,
+        "latitud" : 41.978479,
+        "longitud" : -87.910288,
+        "estado" : 4,
+        "lugar" : "O'Hare Internartional Airport",
+        "imagen" : "piano_4.png",
+        "descripcion" : "The piano is in good conditions and well tunes. It is near gate C17.",
+        "link" : "https://www.google.com/maps/place/41%C2%B058'42.6%22N+87%C2%B054'36.9%22W/@41.9784837,-87.9101027,83m/data=!3m1!1e3!4m4!3m3!8m2!3d41.978491!4d-87.910262?entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D",
+        "comprobacion" : "22/7/2025"
     }
 ]
