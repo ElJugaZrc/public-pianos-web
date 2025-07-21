@@ -111,7 +111,7 @@ fetch('pianos.json')
             // Selecciona el icono según el estado
             let icono;
             switch (piano.estado) {
-                case 0: icono = IconoGris
+                case 0: icono = IconoGris; break;
                 case 1: icono = IconoVerde; break;
                 case 2: icono = iconoAmarillo; break;
                 case 3: icono = IconoRojo; break;
