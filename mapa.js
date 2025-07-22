@@ -103,7 +103,7 @@ const IconoMorado = new L.Icon({
     shadowSize: [41, 41]
 });
 
-// Función para los marcadores (hecha por Github copilot) :( me siento decepcionado conmigo mismo pero es que no entendía un carajo de esto xd)
+// Función para los marcadores (hecha por Github copilot) :( me siento decepcionado conmigo mismo pero es que no entendía un carajo de esto xd) algunas cosas de esta función si las he puesto yo tras que copilot me pusiera lo principal xd
 fetch('pianos.json')
     .then(response => response.json())
     .then(pianos => {
