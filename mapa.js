@@ -13,118 +13,22 @@ const map = L.map('map').setView([37.3703279, -5.9996015], 3);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',}).addTo(map); // Esta línea hace que el mapa se muestre
 
-// Constante para que el icono sea gris (0)
-const IconoGris = new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-grey.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-});
 
-// Constante para que el icono sea verde (1)
-const IconoVerde = new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-});
-
-// Constante para que el icono sea amarillo (2)
-const iconoAmarillo = new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-yellow.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-});
-
-// Constante para que el icono sea rojo (3)
-const IconoRojo = new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-});
-
-// Constante para que el icono sea negroverde (4)
-const IconoNegroVerde = new L.Icon({
-    iconUrl: 'images/marcadores/marker_negroverde.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-});
-
-// Constante para que el icono sea negroamarillo (5)
-const IconoNegroAmarillo = new L.Icon({
-    iconUrl: 'images/marcadores/marker_negroamarillo.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-});
-
-// Constante para que el icono sea negrojo (6)
-const IconoNegrojo = new L.Icon({
-    iconUrl: 'images/marcadores/marker_negrojo.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-});
-
-// Constante para que el icono sea negris (7)
-const IconoNegris = new L.Icon({
-    iconUrl: 'images/marcadores/marker_negris.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-});
-
-// Constante para que el icono sea morado (8)
-const IconoMorado = new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-violet.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-});
-
-// Función para los marcadores (hecha por Github copilot) :( me siento decepcionado conmigo mismo pero es que no entendía un carajo de esto xd) algunas cosas de esta función si las he puesto yo tras que copilot me pusiera lo principal xd
+// Función para los marcadores (hecha por Github copilot las líneas 18 a 24)
 fetch('pianos.json')
     .then(response => response.json())
     .then(pianos => {
         pianos.forEach(piano => {
-            // Selecciona el icono según el estado
-            let icono;
-            switch (piano.estado) {
-                case 0: icono = IconoGris; break;
-                case 1: icono = IconoVerde; break;
-                case 2: icono = iconoAmarillo; break;
-                case 3: icono = IconoRojo; break;
-                case 4: icono = IconoNegroVerde; break;
-                case 5: icono = IconoNegroAmarillo; break;
-                case 6: icono = IconoNegrojo; break;
-                case 7: icono = IconoNegris; break;
-                case 8: icono = IconoMorado; break;
-                default: icono = IconoGris;
-            }
 
             // Crea el marcador
-            L.marker([piano.latitud, piano.longitud], { icon: icono })
+            L.marker([piano.latitud, piano.longitud], { icon: L.icon({
+                iconUrl: `images/marcadores/${piano.estado}.png`,
+                shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+                popupAnchor: [1, -34],
+                shadowSize: [41, 41]
+            }) })
                 .addTo(map)
                 .bindPopup(
                     `<h2 style="margin-bottom: 10px;">${piano.lugar}</h2>
