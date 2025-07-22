@@ -127,7 +127,8 @@ fetch('pianos.json')
             L.marker([piano.latitud, piano.longitud], { icon: icono })
                 .addTo(map)
                 .bindPopup(
-                    `<h2>${piano.lugar}</h2>
+                    `<h2 style="margin-bottom: 10px;">${piano.lugar}</h2>
+                    <h6 style="margin:0px;">ID(${piano.id})</h6>
                     <hr>
                     <img src='images/pianos/${piano.imagen}' width='300px'>
                     <p>${piano.descripcion}</p>
