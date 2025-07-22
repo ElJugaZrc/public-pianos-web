@@ -1,22 +1,27 @@
-LICENCIA DE USO DEL PROYECTO "Public Pianos Web"
+USE LICENSE FOR THE "Public Pianos Web" PROJECT
 
-Este proyecto es de uso público solo para fines educativos y colaborativos.  
-No se permite el uso comercial, la redistribución con fines de lucro ni la creación de proyectos derivados con fines comerciales.
+Copyright (c) 2025, ElJugaZrc
+All rights reserved.
 
-Puedes:
-- Usar, modificar y compartir el código únicamente para fines educativos y personales.
-- Proponer mejoras mediante pull requests en este repositorio.
+This project is provided for educational and collaborative use only.
+Commercial use, redistribution for profit, and creation of derivative works for commercial purposes are strictly prohibited.
 
-Debes:
-- Mantener la atribución al autor original (ElJugaZrc).
-- Compartir cualquier modificación bajo los mismos términos de esta licencia.
-- No eliminar los avisos de licencia y créditos originales.
+You are permitted to:
+- Use, modify, and share the code solely for educational and personal purposes.
+- Propose improvements via pull requests in this repository.
 
-Este proyecto utiliza:
-- **Leaflet** (licencia BSD 2-Clause): https://github.com/Leaflet/Leaflet/blob/main/LICENSE
-- **OpenStreetMap** (licencia ODbL): https://www.openstreetmap.org/copyright
-- **Leaflet Color Markers** (licencia BSD 2-Clause): https://github.com/pointhi/leaflet-color-markers?tab=BSD-2-Clause-1-ov-file
+You are required to:
+- Maintain attribution to the original author (ElJugaZrc).
+- Share any modifications under the same terms of this license.
+- Not remove this license notice or original credit information.
 
-Debes respetar las licencias de Leaflet, Leaflet Color Markets y OpenStreetMap al usar este proyecto.
+This project includes components licensed under third-party terms:
+- **Leaflet** (BSD 2-Clause License): https://github.com/Leaflet/Leaflet/blob/main/LICENSE  
+- **Leaflet Color Markers** (BSD 2-Clause License): https://github.com/pointhi/leaflet-color-markers  
+- **OpenStreetMap** (ODbL License): https://www.openstreetmap.org/copyright  
 
-El autor no se responsabiliza del uso indebido del código fuera de los términos aquí descritos.
+You must comply with the license terms of Leaflet, Leaflet Color Markers, and OpenStreetMap when using or distributing this project.
+
+DISCLAIMER:
+This software is provided "AS IS", without any warranties of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, or non-infringement.  
+The author shall not be held liable for any misuse of this code outside the scope described in this license.
