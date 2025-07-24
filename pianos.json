@@ -57,5 +57,17 @@
         "descripcion" : "The piano is in good conditions and well tune. It is in the 3rd terminal.",
         "link" : "https://www.google.com/maps/place/Bubbles/@41.9754054,-87.9004354,19.75z/data=!3m1!5s0x880fb429388b54df:0xe580411aa72bf45e!4m6!3m5!1s0x880fb4361579f027:0x81591d91181b8e0c!8m2!3d41.9753604!4d-87.9005375!16s%2Fg%2F11xchthb8?entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D",
         "comprobacion" : "22/7/2025"
+    },
+
+    {
+        "id" : 6,
+        "latitud" : 37.390850,
+        "longitud" : -5.992433,
+        "estado" : 1,
+        "lugar" : "Tertia Sensu (Seville)",
+        "imagen" : "piano_6.webp",
+        "descripcion" : "The piano is in good conditions and well tune. Is inside of a store so is not available if the store is closed.",
+        "link" : "https://www.google.com/maps/place/Tertia+Sensu/@37.3914108,-5.9922325,18.75z/data=!4m6!3m5!1s0xd126c1ab5e8f847:0x1e744d5e8b384066!8m2!3d37.3908448!4d-5.9924066!16s%2Fg%2F11j8lzl455?entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D",
+        "comprobacion" : "24/7/2025"
     }
 ]
