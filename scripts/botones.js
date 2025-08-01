@@ -37,3 +37,12 @@ document.getElementById("boton_abrir_leyenda").addEventListener("click", functio
     boton_abrir_leyenda.style.visibility = "hidden";
     boton_abrir_leyenda.style.pointerEvents = "none";
 })
+
+document.getElementById("boton_abrir_filtro").addEventListener("click", function() {
+    const abrir_filtro = document.getElementById("abrir_filtro")
+    const panel_filtro = document.getElementById("panel_filtro")
+    abrir_filtro.style.visibility = "hidden";
+    abrir_filtro.style.pointerEvents = "none";
+    panel_filtro.style.visibility = "visible";
+    panel_filtro.style.pointerEvents = "all";
+})
