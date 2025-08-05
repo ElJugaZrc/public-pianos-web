@@ -74,5 +74,16 @@
         "descripcion" : "The piano is in good conditions and well tune. Is inside of the science park so you need a ticket to enter. You can find it on the upper floor to the left of the entrance.",
         "link" : "https://www.google.com/maps/place/Parque+de+las+Ciencias/@37.1626383,-3.6071516,17.33z/data=!4m10!1m2!2m1!1smuseo+de+la+ciencia+granada!3m6!1s0xd71fc9e5b7a5363:0x272a959cff704795!8m2!3d37.1624608!4d-3.6068027!15sChttdXNlbyBkZSBsYSBjaWVuY2lhIGdyYW5hZGGSAQ5zY2llbmNlX211c2V1baoBXRABKhciE211c2VvIGRlIGxhIGNpZW5jaWEoDjIfEAEiG5MnQTc2F7ijuTp0VZHtiokgxm-PhsE0yGU1FzIfEAIiG211c2VvIGRlIGxhIGNpZW5jaWEgZ3JhbmFkYeABAA!16s%2Fg%2F121s42k4?entry=ttu&g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D",
         "comprobacion" : "27/7/2025"
+    },
+
+    {
+        "id" : 8,
+        "latitud" : 51.849366,
+        "longitud" : -8.489878,
+        "estado" : 5,
+        "lugar" : "Cork Airport",
+        "descripcion" : "The piano is in good conditions and well tune. I dont know the exact position of the piano",
+        "link" : "https://www.google.com/maps/place/Aeropuerto+de+Cork/@51.8489632,-8.4899581,239m/data=!3m1!1e3!4m6!3m5!1s0x48448fafbf85db05:0xa48d32b2615271d4!8m2!3d51.8490591!4d-8.4898845!16zL20vMDFxeW1k?entry=ttu&g_ep=EgoyMDI1MDczMC4wIKXMDSoASAFQAw%3D%3D",
+        "comprobacion" : "5/8/2025"
     }
 ]
