@@ -85,5 +85,27 @@
         "descripcion" : "The piano is in good conditions and well tune. I dont know the exact position of the piano",
         "link" : "https://www.google.com/maps/place/Aeropuerto+de+Cork/@51.8489632,-8.4899581,239m/data=!3m1!1e3!4m6!3m5!1s0x48448fafbf85db05:0xa48d32b2615271d4!8m2!3d51.8490591!4d-8.4898845!16zL20vMDFxeW1k?entry=ttu&g_ep=EgoyMDI1MDczMC4wIKXMDSoASAFQAw%3D%3D",
         "comprobacion" : "5/8/2025"
+    },
+
+    {
+        "id" : 9,
+        "latitud" : -35.249674,
+        "longitud" : 149.139702,
+        "estado" : 0,
+        "lugar" : "Dickson Library",
+        "descripcion" : "Piano in unknown conditions. Is in the street and it has lot of colors.",
+        "link" : "https://maps.app.goo.gl/cUYJUEssJcxtRW2q7",
+        "comprobacion" : "7/8/2025"
+    },
+
+    {
+        "id" : 10,
+        "latitud" : 37.771224,
+        "longitud" : -122.473904,
+        "estado" : 0,
+        "lugar" : "Golden Gate Park",
+        "descripcion" : "Piano in unknown conditions. Is in the middle of the John F. Kennedy Promenade road.",
+        "link" : "https://maps.app.goo.gl/8pCbrzPZ2Z8TChFD7",
+        "comprobacion" : "7/8/2025"
     }
 ]
