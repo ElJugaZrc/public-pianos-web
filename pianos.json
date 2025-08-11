@@ -118,5 +118,16 @@
         "descripcion" : "The piano is in good conditions and well tune. Is inside of a store so is not available if the store is closed.",
         "link" : "https://maps.app.goo.gl/pkUtSjixNwgMJ7QeA",
         "comprobacion" : "08/08/2025"
+    },
+
+    {
+        "id" : 12,
+        "latitud" : 51.753505,
+        "longitud" : -1.269972,
+        "estado" : 1,
+        "lugar" : "Oxford Train Station",
+        "descripcion" : "The piano is in good condition and well tune. Is in the ground floor and is small.",
+        "link" : "https://maps.app.goo.gl/XSRuAzQDTFqy42Y87?g_st=iw",
+        "comprobacion" : "11/08/2025"
     }
 ]
