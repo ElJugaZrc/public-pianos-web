@@ -140,5 +140,16 @@
         "descripcion" : "The piano is in unknown condition. Is under a roof built for the piano next to the park.",
         "link" : "https://maps.app.goo.gl/r8ULEvjwnDTG3mkQ7",
         "comprobacion" : "13/08/2025"
+    },
+
+    {
+        "id" : 14,
+        "latitud" : 38.286838,
+        "longitud" : -0.551838,
+        "estado" : 5,
+        "lugar" : "Aeropuerto de Elche",
+        "descripcion" : "The piano is in good condition and well tune. Is in passenger terminal, on the upper floor, between gates C-45 and C-40",
+        "link" : "https://maps.app.goo.gl/jrehmsCX3FMAeheX8",
+        "comprobacion" : "17/08/2025"
     }
 ]
