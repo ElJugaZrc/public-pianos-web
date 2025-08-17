@@ -151,5 +151,16 @@
         "descripcion" : "The piano is in good condition and well tune. Is in passenger terminal, on the upper floor, between gates C-45 and C-40",
         "link" : "https://maps.app.goo.gl/jrehmsCX3FMAeheX8",
         "comprobacion" : "17/08/2025"
+    },
+
+    {
+        "id" : 15,
+        "latitud" : 52.452309,
+        "longitud" : -1.737583,
+        "estado" : 5,
+        "lugar" : "Birmingham Airport",
+        "descripcion" : "Is an electric piano and is close to the 42 gate.",
+        "link" : "https://maps.app.goo.gl/A5W22B62CGvMA2U96",
+        "comprobacion" : "17/08/2025"
     }
 ]
