@@ -9,7 +9,10 @@
 // "link" : link de google maps de las coordenadas del piano
 // Poner esas cosas en el archivo json
 
-const map = L.map('map').setView([37.3703279, -5.9996015], 3);
+const map = L.map('map',{
+    center: [37.3703279, -5.9996015],
+    zoom: 3
+})
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',}).addTo(map); // Esta línea hace que el mapa se muestre
 
