@@ -11,7 +11,9 @@
 
 const map = L.map('map',{
     center: [37.3703279, -5.9996015],
-    zoom: 3
+    zoom: 3,
+    inertia: false,
+    worldCopyJump: true,
 })
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',}).addTo(map); // Esta línea hace que el mapa se muestre
