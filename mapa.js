@@ -73,11 +73,11 @@ fetch('pianos.json')
     });
 
 var filtroPianos = {
-    '<img src="images/marcadores/1.png" width="20" style="vertical-align:middle;">' : marcadoresVerdes,
-    '<img src="images/marcadores/2.png" width="20" style="vertical-align:middle;">' : marcadoresAmarillos,
-    '<img src="images/marcadores/3.png" width="20" style="vertical-align:middle;">' : marcadoresRojos,
-    '<img src="images/marcadores/0.png" width="20" style="vertical-align:middle;">' : marcadoresGrises,
-    '<img src="images/marcadores/8.png" width="20" style="vertical-align:middle;">' : marcadoresMorados
+    '<img src="images/marcadores/1.png" width="20" class = "iconos_filtro"> <hr>' : marcadoresVerdes,
+    '<img src="images/marcadores/2.png" width="20" class = "iconos_filtro"> <hr>' : marcadoresAmarillos,
+    '<img src="images/marcadores/3.png" width="20" class = "iconos_filtro"> <hr>' : marcadoresRojos,
+    '<img src="images/marcadores/0.png" width="20" class = "iconos_filtro"> <hr>' : marcadoresGrises,
+    '<img src="images/marcadores/8.png" width="20" class = "iconos_filtro">' : marcadoresMorados
 };
 
 var layerControl = L.control.layers(null,filtroPianos).addTo(map);
