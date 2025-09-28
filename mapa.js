@@ -49,7 +49,7 @@ fetch('pianos.json')
                     `<h2 style="margin-bottom: 10px;">${piano.lugar}</h2>
                     <h6 style="margin:0px;">ID(${piano.id})</h6>
                     <hr>
-                    <img src='images/pianos/piano_${piano.id}.webp' width='300px'>
+                    <img src='images/pianos/piano_${piano.foto}.webp' width='300px'>
                     <p>${piano.descripcion}</p>
                     <table style="width:100%"><tr><td><a href='${piano.link}' target='_blank' rel='noopener noreferrer'>Open in google maps</a></td><td><h5 style="margin: 0px;">Last update: ${piano.comprobacion}</h5></td></tr></table>`
                 );
