@@ -156,13 +156,24 @@
     display: block;
 }
 
+.iconos_filtro {
+    vertical-align: middle;
+    margin-left: 2px;
+}
+
+.hr_faq {
+    height: 4px;
+    background-color: black;
+    border: none;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 hr {
-    height: 4px;
-    background-color: black;
+    height: 2px;
+    background-color: rgb(118, 118, 118);
     border: none;
 }
 
