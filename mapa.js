@@ -19,7 +19,7 @@ const map = L.map('map',{
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',}).addTo(map); // Esta línea hace que el mapa se muestre
 
 
-// Función para los marcadores (hecha por Github copilot las líneas 18 a 24)
+// Función para los marcadores (hecha por Github copilot las siguientes 5 líneas)
 fetch('pianos.json')
     .then(response => response.json())
     .then(pianos => {
