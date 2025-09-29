@@ -8,8 +8,9 @@ var marcadoresMorados = L.layerGroup();
 const map = L.map('map',{
     center: [37.3703279, -5.9996015],
     zoom: 3,
-    inertia: false,
+    inertia: true,
     worldCopyJump: true,
+    minZoom: 2,
     layers: [marcadoresVerdes,marcadoresAmarillos,marcadoresRojos,marcadoresGrises,marcadoresMorados]
 })
 
