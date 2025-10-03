@@ -72,11 +72,11 @@ fetch('pianos.json')
 
 // Agrupamos las capas de los pianos en un objeto para hacer el filtro
 var filtroPianos = {
-    '<img src="images/marcadores/1.png" width="20" class = "iconos_filtro"> <hr>' : marcadoresVerdes,
-    '<img src="images/marcadores/2.png" width="20" class = "iconos_filtro"> <hr>' : marcadoresAmarillos,
-    '<img src="images/marcadores/3.png" width="20" class = "iconos_filtro"> <hr>' : marcadoresRojos,
-    '<img src="images/marcadores/0.png" width="20" class = "iconos_filtro"> <hr>' : marcadoresGrises,
-    '<img src="images/marcadores/8.png" width="20" class = "iconos_filtro">' : marcadoresMorados
+    '<img src="images/marcadores/1.png" width="20" class = "iconos_filtro"> Green Markers <hr>' : marcadoresVerdes,
+    '<img src="images/marcadores/2.png" width="20" class = "iconos_filtro"> Yellow Markers <hr>' : marcadoresAmarillos,
+    '<img src="images/marcadores/3.png" width="20" class = "iconos_filtro"> Red Markers <hr>' : marcadoresRojos,
+    '<img src="images/marcadores/0.png" width="20" class = "iconos_filtro"> Gray Markers <hr>' : marcadoresGrises,
+    '<img src="images/marcadores/8.png" width="20" class = "iconos_filtro"> Purple Markers' : marcadoresMorados
 };
 
 // Agrupamos las capas de los mapas en un objeto para el filtro
