@@ -237,5 +237,17 @@
         "link" : "https://maps.app.goo.gl/eVd9hJGMmSwkdkMA8",
         "foto" : "20",
         "comprobacion" : "28/09/2025"
+    },
+
+    {
+        "id" : 21,
+        "latitud" : 41.387318,
+        "longitud" : 2.169084,
+        "estado" : 0,
+        "lugar" : "Plaza de Catalunya",
+        "descripcion" : "The piano is located next to one of the fountains in the square. It's a solar piano, so it's only available from 9:00 a.m. to 10:00 p.m. At least that's what it says on the website.",
+        "link" : "https://maps.app.goo.gl/sSomLabM99PD2wzo6",
+        "foto" : "21",
+        "comprobacion" : "15/08/2025"
     }
 ]
