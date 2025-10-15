@@ -19,7 +19,7 @@ const map = L.map('map',{
     center: [37.3703279, -5.9996015],
     zoom: 3,
     inertia: true,
-    worldCopyJump: true,
+    worldCopyJump: false,
     minZoom: 2,
     layers: [osm,marcadoresVerdes,marcadoresAmarillos,marcadoresRojos,marcadoresGrises,marcadoresMorados]
 })
