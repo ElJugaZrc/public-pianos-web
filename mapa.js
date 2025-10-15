@@ -68,6 +68,7 @@ fetch('pianos.json')
     })
     .catch(error => {
         console.error("Error cargando pianos.json:", error);
+        window.alert("Ha ocurrido un error cargando los pianos. Por favor refresca la página.")
     });
 
 // Agrupamos las capas de los pianos en un objeto para hacer el filtro
