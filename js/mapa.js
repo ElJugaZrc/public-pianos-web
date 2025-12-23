@@ -26,7 +26,7 @@ const map = L.map('map',{
 
 
 // Función para los marcadores (hecha por Github copilot las siguientes 5 líneas)
-fetch('pianos.json')
+fetch('data/pianos.json')
     .then(response => response.json())
     .then(pianos => {
         pianos.forEach(piano => {
