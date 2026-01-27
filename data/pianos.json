@@ -249,5 +249,17 @@
         "link" : "https://maps.app.goo.gl/sSomLabM99PD2wzo6",
         "foto" : "21",
         "comprobacion" : "15/08/2025"
+    },
+
+    {
+        "id" : 22,
+        "latitud" : 34.056145223074886,
+        "longitud" : -118.23645317104437,
+        "estado" : 1,
+        "lugar" : "Los Angeles Union Station",
+        "descripcion" : "Black upright piano, near the Starbucks and the waiting area.",
+        "link" : "https://maps.app.goo.gl/nFuLVatLzRR2PZyC8",
+        "foto" : "22",
+        "comprobacion" : "28/01/2026"
     }
 ]
