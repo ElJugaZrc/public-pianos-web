@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link href="estilo.css" rel="stylesheet">
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Formulario</title>
+    </head>
+    <body>
+        <header>
+            <h1>Submit a piano</h1>
+            <p>Fill out this form to add a piano to publicpianos.org</p>
+        </header>
+        <form action="formulario_enviado.html" method="POST">
+            <ul>
+                <li><p>Name of the place: <input type="text" name="place"></p></li><br>
+                <li><p>Description of the piano: <input type="text" name="description"></p></li><br>
+                <li><p>Photo of the piano: <input type="file" name="image"></p></li><br>
+                <li><p>State of the piano: 
+                    <ul>
+                        <li><p><input type="radio" name="1state">In good condition.</p></li>
+                        <li><p><input type="radio" name="2state">It has some defects.</p></li>
+                        <li><p><input type="radio" name="3state">In bad condition.</p></li>
+                        <li><p><input type="radio" name="4state">I don't know what condition the piano is in.</p></li>
+                    </ul>
+                </p></li><br>
+                <li><p>Is the piano in a restricted area?
+                    <ul>
+                        <li><p><input type="radio" name="restricted_area">Yes</p></li>
+                        <li><p><input type="radio" name="not_restricted_area">No</p></li>
+                    </ul>
+                </p></li><br>
+                <li><p>Is it a temporary piano?
+                    <ul>
+                        <li><p><input type="radio" name="temp_yes">Yes</p></li>
+                        <li><p><input type="radio" name="temp_no">No</p></li>
+                    </ul>
+                </p></li><br>
+                <li><p>Add a google maps link of where the piano is: <input type="url" name="location"></p></li><br>
+                <li><p>Add an email to get an update of your submission (the mail will be deleted after we add the piano to the page): <input type="email" name="email"></p></li><br>
+            </ul>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
