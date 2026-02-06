@@ -1,27 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="ElJugaZrc">
-    <meta name="description" content="A page for looking to public pianos around the world">
-    <meta name="keywords" content="publicpianos,public,pianos,publicpianos.org">
-    <meta property="og:image" content="https://publicpianos.org/images/publicpianos_logo.png"/>
-    <link rel="icon" href="images/publicpianos_logo.png">
-    <title>Submit a Piano</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="ElJugaZrc">
+<meta name="description" content="A page for looking to public pianos around the world">
+<meta name="keywords" content="publicpianos,public,pianos,publicpianos.org">
+<meta property="og:image" content="https://publicpianos.org/images/publicpianos_logo.png"/>
+<link rel="icon" href="images/publicpianos_logo.png">
+<title>Submit a Piano</title>
+	<style>
+		body{
+		    text-align: center;
+		    background-color: #ffe9ba;
+		}
+		header{
+		    border-style: groove;
+		    border-radius: 5px;
+		}
+	</style>
 </head>
 <body>
-    <div class="formulario">
-        <form action="">
-            <label for="nombre">Name of the place</label><br>
-            <input type="text" id="nombre" name="fname"><br>
-
-            <label for="descripcion">Description of the piano</label><br>
-            <textarea id="descripcion" name="fname"></textarea><br>
-
-
-        </form>
-    </div>
+    <header>
+        <h1>Submit a piano</h1>
+        <p>Fill out this form to add a piano to publicpianos.org</p>
+    </header>
+    <form action="formulario_enviado.html">
+        <ul>
+            <li id="for"><p>Name of the place: <input type="text" name="place"></p></li><br>
+            <li id="for"><p>Description of the piano: <input type="text" name="description"></p></li><br>
+            <li id="for"><p>Photo of the piano: <input type="file" name="image"></p></li><br>
+            <li id="for"><p>State of the piano: 
+                <ul>
+                    <li id="for"><p><input type="radio" name="state">In good condition.</p></li>
+                    <li id="for"><p><input type="radio" name="state">It has some defects.</p></li>
+                    <li id="for"><p><input type="radio" name="state">In bad condition.</p></li>
+                    <li id="for"><p><input type="radio" name="state">I don't know what condition the piano is in.</p></li>
+                </ul>
+            </p></li><br>
+            <li id="for"><p>Is the piano in a restricted area?
+                <ul>
+                    <li id="for"><p><input type="radio" name="restricted_area">Yes</p></li>
+                    <li id="for"><p><input type="radio" name="restricted_area">No</p></li>
+                </ul>
+            </p></li><br>
+            <li id="for"><p>Is it a temporary piano?
+                <ul>
+                    <li id="for"><p><input type="radio" name="temp">Yes</p></li>
+                    <li id="for"><p><input type="radio" name="temp">No</p></li>
+                </ul>
+            </p></li><br>
+            <li id="for"><p>Add a google maps link of where the piano is: <input type="url" name="location"></p></li><br>
+            <li id="for"><p>Add an email to get an update of your submission (the mail will be deleted after we add the piano to the page): <input type="email" name="email"></p></li><br>
+        </ul>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
