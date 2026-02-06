@@ -1,0 +1,13 @@
+.for{
+    border-style: groove;
+    border-radius: 5px;
+    display: in;
+}
+body{
+    text-align: center;
+    background-color: #ffe9ba;
+}
+header{
+    border-style: groove;
+    border-radius: 5px;
+}
