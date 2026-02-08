@@ -168,20 +168,32 @@
     border: none;
 }
 
-.card{
+.globo_texto {
    width: 100px;
    margin: 40px auto;
    display: flex;
    flex-direction: column;
-   position: absolute; bottom: 30px; right: 220px;
-   visibility: hidden;
-   }
+   position: absolute;
+   bottom: 30px;
+   right: 220px;
+   opacity: 0;
+   transition: opacity 1s ease;
+}
+
+.globo_texto_visible {
+   opacity: 1;
+}
+
+
+.globo_texto_visible{
+    opacity: 1;
+}
 
 .globo{
    border-radius: 25px;
-      padding: 12px;
-      background: rgb(255, 255, 255);
-      color: rgb(0, 0, 0);
+   background: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
+   padding: 12px;
    padding: 10px;
    position: relative;
    width: 200px;
@@ -203,12 +215,6 @@
    transform: rotate(10deg);
    z-index: -1;
    }
-.imagen {
-   width: 141px;
-   border-radius: 50%;
-   border: 8px double #f5e8e8;
-   width: 100px;
-} 
 
 body {
     font-family: Arial, Helvetica, sans-serif;
