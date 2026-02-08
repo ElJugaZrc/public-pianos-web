@@ -168,6 +168,48 @@
     border: none;
 }
 
+.card{
+   width: 100px;
+   margin: 40px auto;
+   display: flex;
+   flex-direction: column;
+   position: absolute; bottom: 30px; right: 220px;
+   visibility: hidden;
+   }
+
+.globo{
+   border-radius: 25px;
+      padding: 12px;
+      background: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+   padding: 10px;
+   position: relative;
+   width: 200px;
+   margin: 0 auto;
+   font-family: sans-serif;
+   z-index: 1000;
+   }
+
+.globo::after {
+   content: '';
+   position: absolute;
+   bottom: 0; 
+   left: 160px;
+   background: transparent;
+   width: 0px; height: 0px;
+   border-bottom: 40px solid rgb(255, 255, 255);
+   border-right: 40px solid transparent;
+   border-left: 40px solid transparent;
+   transform: rotate(10deg);
+   z-index: -1;
+   }
+.imagen {
+   width: 141px;
+   border-radius: 50%;
+   border: 8px double #f5e8e8;
+   width: 100px;
+} 
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }

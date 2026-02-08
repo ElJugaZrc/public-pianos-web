@@ -37,3 +37,9 @@ document.getElementById("boton_abrir_leyenda").addEventListener("click", functio
     boton_abrir_leyenda.style.visibility = "hidden";
     boton_abrir_leyenda.style.pointerEvents = "none";
 })
+
+function globoTexto() {
+    if (window.screen.width >= 650) {
+        
+    }
+}
