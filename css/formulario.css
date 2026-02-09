@@ -19,7 +19,7 @@ li{
 
 body{
     background-color: #ffe9ba;
-    background-image: url("/images/fondo_formulario.png");
+    background-image: url("../images/fondo_formulario.png");
     background-size: cover;
 }
 
