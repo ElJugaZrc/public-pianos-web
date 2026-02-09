@@ -14,13 +14,14 @@
     </head>
     <body>
         <header>
-            <h1>Submit a piano</h1>
+            
+            <h1><a href="..\index.html"><input class="goback" type="button" value="Go back"></a>Submit a piano</h1>
             <p>Fill out this form to add a piano to publicpianos.org</p>
         </header>
         <form action="..\html\formulario_enviado.html">
             <ul>
                 <li><p>Name of the place: <input type="text" name="place"></p></li><br>
-                <li><p>Description of the piano: </p><textarea id="w3review" name="w3review" rows="4" cols="50"></textarea></li><br>
+                <li><p>Description of the piano: </p><textarea name="description" rows="4" cols="50"></textarea></li><br>
                 <li><p>Photo of the piano: <input type="file" name="image"></p></li><br>
                 <li><p>State of the piano: 
                     <ul>
@@ -45,11 +46,15 @@
                 <li><p>Add a google maps link of where the piano is: <input type="url" name="location"></p></li><br>
                 <li><p>Add an email to get an update of your submission (the mail will be deleted after we add the piano to the page): <input type="email" name="email"></p></li><br>
             </ul>
+            <p>Haz que haya una entermedia en la q salga la info q ha puesto y si quiere editar algo</p>
             <input id="submit" type="submit" value="Submit">
         </form>
         <hr style="color: black;">
         <footer>
-            <nav><a href="https://discord.gg/TnWbzAXh">Discord</a> | <a href="https://github.com/ElJugaZrc/public-pianos-web">GitHub</a></nav>
+            <nav>
+                <a href="https://discord.gg/TnWbzAXh"><img src="\images\discord_icon.png" width="50px" height="50px"></a>
+                <a href="https://github.com/ElJugaZrc/public-pianos-web"><img src="\images\github-mark.png" width="50px" height="50px"></a>
+            </nav>
         </footer>
     </body>
 </html>

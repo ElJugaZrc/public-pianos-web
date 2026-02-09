@@ -40,3 +40,9 @@ header{
 footer{
     text-align: center;
 }
+
+.goback{
+    text-align: left;
+    display: block;
+    margin-left: 25px;
+}
