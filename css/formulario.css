@@ -9,7 +9,7 @@ li{
     text-align: left;
     padding: 15px;
     width: 600px;
-    margin:8px auto;
+    margin:2px auto;
     display: block;
     border: 1px black;
     background-color: rgb(255, 248, 232);
@@ -23,10 +23,20 @@ header{
     text-align: center;
     padding: 15px;
     width: 650px;
-    margin: 8px auto;
+    margin: 40px auto;
     display: block;
     background-color: rgb(255, 248, 232);
     border: 1px black;
     border-style: groove;
     border-radius: 5px;
+}
+
+#submit {
+    display: block;
+    margin: 0 auto;
+    block-size: 50px;
+}
+
+footer{
+    text-align: center;
 }

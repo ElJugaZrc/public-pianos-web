@@ -17,7 +17,7 @@
             <h1>Submit a piano</h1>
             <p>Fill out this form to add a piano to publicpianos.org</p>
         </header>
-        <form action="formulario_enviado.html" method="POST">
+        <form action="..\html\formulario_enviado.html">
             <ul>
                 <li><p>Name of the place: <input type="text" name="place"></p></li><br>
                 <li><p>Description of the piano: </p><textarea id="w3review" name="w3review" rows="4" cols="50"></textarea></li><br>
@@ -45,7 +45,11 @@
                 <li><p>Add a google maps link of where the piano is: <input type="url" name="location"></p></li><br>
                 <li><p>Add an email to get an update of your submission (the mail will be deleted after we add the piano to the page): <input type="email" name="email"></p></li><br>
             </ul>
-            <input type="submit" value="Submit">
+            <input id="submit" type="submit" value="Submit">
         </form>
+        <hr style="color: black;">
+        <footer>
+            <nav><a href="https://discord.gg/TnWbzAXh">Discord</a> | <a href="https://github.com/ElJugaZrc/public-pianos-web">GitHub</a></nav>
+        </footer>
     </body>
 </html>
