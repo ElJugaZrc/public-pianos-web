@@ -19,7 +19,8 @@ li{
 
 body{
     background-color: #ffe9ba;
-    background-image: url("/images/fondo_formulario.png");
+    background-image: url("../images/fondo_formulario.png");
+    background-size: cover;
 }
 
 header{
@@ -48,4 +49,18 @@ footer{
     text-align: left;
     display: block;
     margin-left: 25px;
+}
+
+.enlaces_enviado{
+    display: inline-flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-decoration: none;
+    margin: 20px;
+}
+
+.img_enlaces{
+    border: 3px solid black;
+    border-style: groove;
+    border-radius: 10px;
 }
