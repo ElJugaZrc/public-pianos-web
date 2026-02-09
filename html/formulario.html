@@ -14,7 +14,7 @@
     </head>
     <body>
         <header>
-            <h1><a href="../index.html"><input class="goback" type="button" value="Go back"></a>Submit a piano</h1>
+            <h1><input class="goback" type="button" onclick="window.location.href='../index.html'" value="Go back">Submit a piano</h1>
             <p>Fill out this form to add a piano to publicpianos.org</p>
         </header>
         <form action="formulario_enviado.html">
@@ -45,7 +45,7 @@
                 <li><p>Add a google maps link of where the piano is: <input type="url" name="location"></p></li><br>
                 <li><p>Add an email to get an update of your submission (the mail will be deleted after we add the piano to the page): <input type="email" name="email"></p></li><br>
             </ul>
-            <input id="submit" type="submit" value="Submit">
+            <input class="submit" type="submit" value="Submit">
         </form>
         <footer>
             <hr>

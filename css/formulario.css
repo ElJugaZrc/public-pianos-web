@@ -1,5 +1,5 @@
 ul{
-    list-style: circle;
+    list-style: none;
     list-style-position: inside;
     padding-left: 0;
     margin: 0;
@@ -19,7 +19,7 @@ li{
 
 body{
     background-color: #ffe9ba;
-    background-image: url("../images/fondo_formulario.png");
+    background-image: url("../images/fondos/fondo_formulario.png");
     background-size: cover;
 }
 
@@ -35,20 +35,21 @@ header{
     border-radius: 5px;
 }
 
-#submit {
+footer{
+    text-align: center;
+}
+
+.submit {
     display: block;
     margin: 0 auto;
     block-size: 50px;
-}
-
-footer{
-    text-align: center;
 }
 
 .goback{
     text-align: left;
     display: block;
     margin-left: 25px;
+    
 }
 
 .enlaces_enviado{
