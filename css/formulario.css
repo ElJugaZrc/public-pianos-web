@@ -16,9 +16,12 @@ li{
     border-style: groove;
     border-radius: 5px;
 }
+
 body{
     background-color: #ffe9ba;
+    background-image: url("/images/fondo_formulario.png");
 }
+
 header{
     text-align: center;
     padding: 15px;
