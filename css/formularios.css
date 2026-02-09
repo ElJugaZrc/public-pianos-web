@@ -1,0 +1,32 @@
+ul{
+    list-style: circle;
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 0;
+}
+
+li{
+    text-align: left;
+    padding: 15px;
+    width: 600px;
+    margin:8px auto;
+    display: block;
+    border: 1px black;
+    background-color: rgb(255, 248, 232);
+    border-style: groove;
+    border-radius: 5px;
+}
+body{
+    background-color: #ffe9ba;
+}
+header{
+    text-align: center;
+    padding: 15px;
+    width: 650px;
+    margin: 8px auto;
+    display: block;
+    background-color: rgb(255, 248, 232);
+    border: 1px black;
+    border-style: groove;
+    border-radius: 5px;
+}
