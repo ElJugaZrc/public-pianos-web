@@ -177,15 +177,10 @@
    bottom: 30px;
    right: 220px;
    opacity: 0;
-   transition: opacity 1s ease;
+   transition: opacity 1s;
 }
 
-.globo_texto_visible {
-   opacity: 1;
-}
-
-
-.globo_texto_visible{
+.globo_texto.fade {
     opacity: 1;
 }
 
