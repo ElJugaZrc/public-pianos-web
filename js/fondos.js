@@ -1,5 +1,5 @@
 let i = Math.floor(Math.random()*5)+1;
-
+//matchMedia
 switch (i){
    case 1:
       document.getElementById("fondo").style.backgroundImage = "url('../images/fondos/horizontal/horizontal_1.png')";
