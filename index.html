@@ -97,5 +97,18 @@
             If you know a piano send it to us!
         </div>
     </div> 
+    
+    <script>
+        // Usamos una función autoejecutable para proteger las variables
+        (function() {
+            console.log("Script cargado correctamente");
+            
+            setTimeout(() => {
+                const globo = document.getElementById("globo_texto");
+                globo.classList.add("fade");
+                console.log("Clase 'fade' aplicada");
+            }, 30000);
+        })();
+    </script>
 </body>
 </html>

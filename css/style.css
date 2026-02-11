@@ -176,12 +176,16 @@
    position: absolute;
    bottom: 30px;
    right: 220px;
-   opacity: 0;
-   transition: opacity 1s;
+   opacity: 0; 
+   visibility: hidden; /* Evita que el elemento reciba clicks mientras es invisible */
+   transition: opacity 1s ease-in-out;
+   z-index: 1000;
 }
 
 .globo_texto.fade {
     opacity: 1;
+    visibility: visible;
+    z-index: 1000;
 }
 
 .globo{

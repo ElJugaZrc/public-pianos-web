@@ -1,11 +1,3 @@
-//Hasta la línea 8 está hecho por chat gpt porque no se todavía mucho de javascript
-document.addEventListener("DOMContentLoaded", () => {
-  setTimeout(() => {
-    const globoTexto = document.getElementById("globo_texto");
-    globoTexto.classList.add("fade");
-  }, 2000); // 30 segundos
-});
-
 document.getElementById("boton_info").addEventListener("click", function() {
     const panel = document.getElementById("panel_informacion")
     const info_buttom = document.getElementById("boton_info")
