@@ -102,12 +102,17 @@
         // Usamos una función autoejecutable para proteger las variables
         (function() {
             console.log("Script cargado correctamente");
+            const globo = document.getElementById("globo_texto");
             
             setTimeout(() => {
-                const globo = document.getElementById("globo_texto");
-                globo.classList.add("fade");
+                globo.classList.toggle("fade");
                 console.log("Clase 'fade' aplicada");
             }, 30000);
+
+            setTimeout(() => {
+                globo.classList.toggle("fade");
+                console.log("Clase 'fade' eliminada");
+            }, 6000);
         })();
     </script>
 </body>
