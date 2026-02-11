@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
     const globoTexto = document.getElementById("globo_texto");
-    globoTexto.classList.toggle("fade");
+    globoTexto.classList.add("fade");
   }, 2000); // 30 segundos
 });
 
