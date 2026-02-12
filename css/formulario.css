@@ -67,3 +67,12 @@ footer {
     border-style: groove;
     border-radius: 10px;
 }
+
+@media (max-width: 768px) {
+    li {
+        width: 90%;
+    }
+    header{
+        width: 95%;
+    }
+}
