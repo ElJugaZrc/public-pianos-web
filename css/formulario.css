@@ -75,4 +75,10 @@ footer {
     header{
         width: 95%;
     }
+    textarea{
+        max-width: 90%;
+    }
+    input{
+        max-width: 90%;
+    }
 }
