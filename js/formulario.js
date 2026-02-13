@@ -5,15 +5,24 @@ formInf.addEventListener('submit', event => {
 
     const formData = new FormData(formInf);
     const data = Object.fromEntries(formData);
-    
-    fetch('https://reqres.in/api/users',{
-        method:'POST',
+
+    fetch("url_webhook", {
+        method: "POST",
         headers: {
-            'Content-Type' : 'aplication/json'
-       },
-        body: JSON.stringify(data)
-    })
-    .then(response => response.json())
-    .then(result => console.log(result))
-    .catch(error => console.error(error));
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            content: `
+                Nuevo formulario enviado:
+                Place: ${data.place}
+                Description: ${data.description}
+                Image: ${data.image}
+                State: ${data.state}
+                Restricted area: ${data.restricted_area}
+                Temporal: ${data.temp}
+                Location: ${data.location}
+                Email: ${data.email}
+            `
+        })
+    });
 });
