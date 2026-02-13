@@ -6,7 +6,7 @@ formInf.addEventListener('submit', event => {
     const formData = new FormData(formInf);
     const data = Object.fromEntries(formData);
 
-    fetch("url_webhook", {
+    fetch("https://discord.com/api/webhooks/1471990187914690601/Uu4EXbPn7XPjup7uWIlRGru3yOzEpJ5_TqChIeZUTJ0qds9BjLrYkL1-GFsuBxsQFI6o", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
