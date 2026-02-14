@@ -25,4 +25,5 @@ formInf.addEventListener('submit', event => {
             `
         })
     });
+    window.location.href = "../html/formulario_enviado.html";
 });
