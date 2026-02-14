@@ -41,6 +41,9 @@ footer {
     text-align: center;
 }
 
+.input {
+    width: 98%;
+}
 .submit {
     display: block;
     margin: 0 auto;
