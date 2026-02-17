@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json');
 
-$webhook = "https://discord.com/api/webhooks/1471990187914690601/Uu4EXbPn7XPjup7uWIlRGru3yOzEpJ5_TqChIeZUTJ0qds9BjLrYkL1-GFsuBxsQFI6o";
+$webhook = ":)";
 if (!$webhook) {
     echo json_encode([
         "success" => false,
