@@ -19,12 +19,12 @@
         </header>
         <form id="form">
             <ul>
-                <li><p>Name of the place: <input type="text" name="place"></p></li><br>
-                <li><p>Description of the piano: </p><textarea name="description" rows="4" cols="50"></textarea></li><br>
+                <li><p>Name of the place:<input type="text" name="place" class="input" required></p></li><br>
+                <li><p>Description of the piano:</p><textarea name="description" class="input" rows="4" required></textarea></li><br>
                 <li><p>Photo of the piano: <input type="file" accept="image/png, image/jpg, image/jpeg, image/webp" name="image"></p></li><br>
                 <li><p>State of the piano: 
                     <ul>
-                        <p><input type="radio" name="state" value="In good condition">In good condition.</p>
+                        <p><input type="radio" name="state" value="In good condition" required>In good condition.</p>
                         <p><input type="radio" name="state" value="It has some defects">It has some defects.</p>
                         <p><input type="radio" name="state" value="In bad condition">In bad condition.</p>
                         <p><input type="radio" name="state" value="I don't know what condition the piano is in">I don't know what condition the piano is in.</p>
@@ -32,13 +32,13 @@
                 </p></li><br>
                 <li><p>Is the piano in a restricted area?
                     <ul>
-                        <p><input type="radio" name="restricted_area" value="Yes">Yes</p>
+                        <p><input type="radio" name="restricted_area" value="Yes" required>Yes</p>
                         <p><input type="radio" name="restricted_area" value="No">No</p>
                     </ul>
                 </p></li><br>
                 <li><p>Is it a temporary piano?
                     <ul>
-                        <p><input type="radio" name="temp" value="Yes">Yes</p>
+                        <p><input type="radio" name="temp" value="Yes" required>Yes</p>
                         <p><input type="radio" name="temp" value="No">No</p>
                     </ul>
                 </p></li><br>
