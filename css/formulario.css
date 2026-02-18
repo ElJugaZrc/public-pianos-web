@@ -67,9 +67,14 @@ footer {
 }
 
 .goback{
-    z-index: 1;    
+    z-index: 1;
 }
 
+.goback img{
+    position: relative;
+    top: -15px;
+}
+    
 .enlaces_enviado{
     display: inline-flex; 
     flex-direction: column; 
