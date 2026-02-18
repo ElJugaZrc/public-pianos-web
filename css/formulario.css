@@ -41,9 +41,25 @@ footer {
     text-align: center;
 }
 
+.header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.header h1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    text-align: center;
+}
+
 .input {
     width: 98%;
 }
+
 .submit {
     display: block;
     margin: 0 auto;
@@ -51,10 +67,7 @@ footer {
 }
 
 .goback{
-    text-align: left;
-    display: block;
-    margin-left: 25px;
-    
+    z-index: 1;    
 }
 
 .enlaces_enviado{
@@ -76,7 +89,7 @@ footer {
         width: 90%;
     }
     header{
-        width: 95%;
+        width: 93%;
     }
     textarea{
         max-width: 90%;

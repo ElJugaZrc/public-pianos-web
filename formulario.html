@@ -14,12 +14,17 @@
     </head>
     <body id="fondo">
         <header>
-            <h1><input class="goback" type="button" onclick="window.location.href='../index.html'" value="Go back">Submit a piano</h1>
+            <div class="header">
+                <a class="goback" href="index.html">
+                   <img src="images/VolverAtrás.png" height="60" width="60" alt="Volver">
+                </a>
+                <h1>Submit a piano</h1>
+            </div>
             <p>Fill out this form to add a piano to publicpianos.org</p>
         </header>
         <form id="form">
             <ul>
-                <li><p>Name of the place:<input type="text" name="place" class="input" required></p></li><br>
+                <li><p>Name of the place:</p><input type="text" name="place" class="input" required></li><br>
                 <li><p>Description of the piano:</p><textarea name="description" class="input" rows="4" required></textarea></li><br>
                 <li><p>Photo of the piano: <input type="file" accept="image/png, image/jpg, image/jpeg, image/webp" name="image"></p></li><br>
                 <li><p>State of the piano: 
