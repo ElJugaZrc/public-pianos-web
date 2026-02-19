@@ -91,15 +91,15 @@ footer {
 
 @media (max-width: 768px) {
     li {
-        width: 90%;
+        max-width: 90%;
     }
     header{
-        width: 93%;
+        max-width: 95%;
     }
     textarea{
-        max-width: 90%;
+        max-width: 100%;
     }
     input{
-        max-width: 90%;
+        max-width: 100%;
     }
 }
