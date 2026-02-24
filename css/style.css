@@ -168,6 +168,16 @@
     border: none;
 }
 
+.editar_piano {
+    margin: 0px;
+    height: 10px; width: 10px;
+}
+
+.editar_piano.imagen {
+    width: 10px; height: 10px;
+    background-color: white;
+}
+
 .globo_texto {
    width: 100px;
    margin: 40px auto;

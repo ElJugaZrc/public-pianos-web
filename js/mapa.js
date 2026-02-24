@@ -44,7 +44,8 @@ fetch('data/pianos.json')
             // Crea el marcador
             const marcador =  L.marker([piano.latitud, piano.longitud], { icon: icono })
                 .bindPopup(
-                    `<h2 style="margin-bottom: 10px;">${piano.lugar}</h2>
+                    `<button class="editar_piano"><a href="formulario.html"><img src="images/publicpianos_logo.png" width= "10px" height="10px"></a></button>
+                    <h2 style="margin-bottom: 10px;">${piano.lugar}</h2>
                     <h6 style="margin:0px;">ID(${piano.id})</h6>
                     <hr>
                     <img src='images/pianos/piano_${piano.foto}.webp' width='300px'>
