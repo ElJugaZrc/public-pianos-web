@@ -41,25 +41,9 @@ footer {
     text-align: center;
 }
 
-.header{
-    position: relative;
-    display: flex;
-    align-items: center;
-    height: 60px;
-}
-
-.header h1{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 0;
-    text-align: center;
-}
-
 .input {
     width: 98%;
 }
-
 .submit {
     display: block;
     margin: 0 auto;
@@ -67,14 +51,12 @@ footer {
 }
 
 .goback{
-    z-index: 1;
+    text-align: left;
+    display: block;
+    margin-left: 25px;
+    
 }
 
-.goback img{
-    position: relative;
-    top: -15px;
-}
-    
 .enlaces_enviado{
     display: inline-flex; 
     flex-direction: column; 
@@ -91,15 +73,15 @@ footer {
 
 @media (max-width: 768px) {
     li {
-        max-width: 90%;
+        width: 90%;
     }
     header{
         width: 93%;
     }
     textarea{
-        max-width: 100%;
+        max-width: 90%;
     }
     input{
-        max-width: 100%;
+        max-width: 90%;
     }
 }
