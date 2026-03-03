@@ -261,5 +261,29 @@
         "link" : "https://maps.app.goo.gl/nFuLVatLzRR2PZyC8",
         "foto" : "22",
         "comprobacion" : "28/01/2026"
+    },
+
+    {
+        "id" : 23,
+        "latitud" : -34.93837151821313,
+        "longitud" : 138.6434427136546,
+        "estado" : 0,
+        "lugar" : "Burnside Library",
+        "descripcion" : "Outside library were children's playground, under roof cover.",
+        "link" : "https://maps.app.goo.gl/Lo9PvkuKc4S2qG5YA",
+        "foto" : "23",
+        "comprobacion" : "18/11/2020"
+    },
+
+    {
+        "id" : 24,
+        "latitud" : -43.163606251901214,
+        "longitud" : 146.92706163689775,
+        "estado" : 0,
+        "lugar" : "Geeveston Town Hall and Visitor Centre",
+        "descripcion" : "Free to use, public encouraged. Available during open hours only.",
+        "link" : "https://maps.app.goo.gl/DGKabNEPK5MXPhJ79",
+        "foto" : 24,
+        "comprobacion" : "03/03/2026"
     }
 ]
