@@ -285,5 +285,29 @@
         "link" : "https://maps.app.goo.gl/DGKabNEPK5MXPhJ79",
         "foto" : 24,
         "comprobacion" : "03/03/2026"
+    },
+
+    {
+        "id" : 25,
+        "latitud" : 50.083959395657565,
+        "longitud" : 14.434156294119843,
+        "estado" : 2,
+        "lugar" : "Prague Train Station",
+        "descripcion" : "The piano is at the left side of the train station, in the entrance. Is out of tune and 1 key doesnt work.",
+        "link" : "https://maps.app.goo.gl/wwXeD5f8kQa8dWeM8",
+        "foto" : 25,
+        "comprobacion" : "01/04/2026"
+    },
+
+    {
+        "id" : 26,
+        "latitud" : 50.08302532802866,
+        "longitud" : 14.435006665075026,
+        "estado" : 5,
+        "lugar" : "Prague Train Station (RegioJet)",
+        "descripcion" : "The piano is in the RegioJet client zone, you must have a train ticket of that company to enter. Is well tunned and in good condition.",
+        "link" : "https://maps.app.goo.gl/M3Vic12id9Bu7vg57",
+        "foto" : 26,
+        "comprobacion" : "01/04/2026"
     }
 ]
