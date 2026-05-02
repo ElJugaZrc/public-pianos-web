@@ -1,9 +1,12 @@
+//Creamos las capas que van a contener cadad tipo de marcador
 var marcadoresVerdes = L.layerGroup();
 var marcadoresAmarillos = L.layerGroup();
 var marcadoresRojos = L.layerGroup();
 var marcadoresGrises = L.layerGroup();
 var marcadoresMorados = L.layerGroup();
 
+
+//Creamos las capas del mapa
 var osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: '&copy; OpenStreetMap contributors',
     crossOrigin: true
@@ -30,11 +33,14 @@ const map = L.map('map', {
     ]
 });
 
+
+// Función para los marcadores (hecha por Github copilot las siguientes 5 líneas)
 fetch('data/pianos.json')
     .then(response => response.json())
     .then(pianos => {
         pianos.forEach(piano => {
 
+            //Creamos el icono del marcador:
             const icono = L.icon({
                 iconUrl: `images/marcadores/${piano.estado}.png`,
                 shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
@@ -44,6 +50,7 @@ fetch('data/pianos.json')
                 shadowSize: [41, 41]
             });
 
+            // Crea el marcador
             const marcador = L.marker([piano.latitud, piano.longitud], { icon: icono })
                 .bindPopup(`
                     <h2 style="margin-bottom: 10px;">${piano.lugar}</h2>
@@ -67,6 +74,7 @@ fetch('data/pianos.json')
                     </table>
                 `);
 
+            //Metemos el marcador en la capa correspondiente:
             if (piano.estado == 1 || piano.estado == 5) {
                 marcador.addTo(marcadoresVerdes);
             } else if (piano.estado == 2 || piano.estado == 6) {
@@ -85,14 +93,16 @@ fetch('data/pianos.json')
         alert("Error cargando los pianos. Refresca la página.");
     });
 
+// Agrupamos las capas de los pianos en un objeto para hacer el filtro
 var filtroPianos = {
-    '<img src="images/marcadores/1.png" width="20"> Green Markers <hr>': marcadoresVerdes,
-    '<img src="images/marcadores/2.png" width="20"> Yellow Markers <hr>': marcadoresAmarillos,
-    '<img src="images/marcadores/3.png" width="20"> Red Markers <hr>': marcadoresRojos,
-    '<img src="images/marcadores/0.png" width="20"> Gray Markers <hr>': marcadoresGrises,
-    '<img src="images/marcadores/8.png" width="20"> Purple Markers': marcadoresMorados
+    '<img src="images/marcadores/1.png" width="20" class = "iconos_filtro"> Green Markers <hr>': marcadoresVerdes,
+    '<img src="images/marcadores/2.png" width="20" class = "iconos_filtro"> Yellow Markers <hr>': marcadoresAmarillos,
+    '<img src="images/marcadores/3.png" width="20" class = "iconos_filtro"> Red Markers <hr>': marcadoresRojos,
+    '<img src="images/marcadores/0.png" width="20" class = "iconos_filtro"> Gray Markers <hr>': marcadoresGrises,
+    '<img src="images/marcadores/8.png" width="20" class = "iconos_filtro"> Purple Markers': marcadoresMorados
 };
 
+// Agrupamos las capas de los mapas en un objeto para el filtro
 var mapas = {
     'OpenStreetMap': osm,
     'Google Maps': gm
