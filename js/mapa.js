@@ -8,6 +8,7 @@ var marcadoresMorados = L.layerGroup();
 
 //Creamos las capas del mapa
 var osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    referrerPolicy: 'strict-origin-when-cross-origin',
     attribution: '&copy; OpenStreetMap contributors',
     crossOrigin: true
 });
