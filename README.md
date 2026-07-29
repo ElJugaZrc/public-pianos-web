@@ -18,6 +18,6 @@ Este proyecto es una página web que muestra pianos públicos de todo el mundo. 
 
 ## ✏️ Sobre como participar
 
-Puedes añadir o editar el estado de un piano haciendo una pull request editando el archivo .json o si te parece más sencillo desde nuestro discord o rellenando el formulario de la página. Si lo haces mediante pull request no olvides añadir/editar/eliminar las fotos correctamente. También ten en cuenta a la hora de poner el estado que estás poniendo el número correcto. La explicación detallada se encuentra el comienzo del archivo mapa.js.
+Puedes añadir un piano mandándolo desde el formulario de la página. Si no funciona el formulario por lo que sea puedes usar también el discord o hacer una pull request al archivo json donde se guardan todos los pianos. También estamos abiertos a contribuciones de código para mejorar la página.
 
 [![Discord](https://img.shields.io/discord/1395366489187422279?label=Únete%20a%20nuestro%20Discord&logo=discord&style=for-the-badge)](https://discord.gg/WNYe33NB3g)
